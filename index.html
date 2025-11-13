@@ -348,7 +348,7 @@ videoModeBtn.onclick = () => {
 // ===== 問い合わせボタン設定 =====
 document.getElementById('contactBtn').onclick = function() {
   const email = "oceanloversy@gmail.com"; // ← 必要に応じて変更可能
-  const subject = encodeURIComponent("予測結果に関する問い合わせ");
+  const subject = encodeURIComponent("UCHI-IBによる予測結果に関する問い合わせ");
   const body = encodeURIComponent("所属：\nお名前：\n問い合わせ内容：\n");
   const mailtoLink = `mailto:${email}?subject=${subject}&body=${body}`;
   window.location.href = mailtoLink;
